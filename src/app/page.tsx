@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className="container">
-        {/* <MovingIcons /> */}
         <section id="intro">
           <div className="home-intro">
             <h1>Stella Lee.</h1>

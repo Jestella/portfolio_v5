@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "month": "Jan 2022",
+    "title": "Data structures & algorithms",
+    "sub": "Completed the Udemy course [Master the Coding Interview: Data Strucrues + Algorithms]",
+    "tech": ["Data Structure", "Algorithm"],
+    "link": "Certificate of Completion",
+    "linkUrl": "https://www.udemy.com/certificate/UC-61c4a8ac-bf1c-4d72-b634-2e002328994c/"
+  },
+  {
+    "id": 2,
+    "month": "Mar 2022",
+    "title": "Website design & development",
+    "sub": "Built a restaurant website with Next.js",
+    "tech": ["Next.js"],
+    "link": "Live Demo",
+    "linkUrl": "https://bistrolee-jestella.vercel.app/"
+  },
+  {
+    "id": 3,
+    "month": "Apr 2022",
+    "title": "MERN project",
+    "sub": "Built a CRUD API web application with MongoDB, Express, React and Node.js",
+    "tech": ["MongoDB", "Express", "React", "Node.js"],
+    "link": "Github Repository",
+    "linkUrl": "https://github.com/Jestella/mern2"
+  },
+
+  {
+    "id": 4,
+    "month": "Jul 2022",
+    "title": "Creative coding with JavaScript",
+    "sub": "Made visuals with JavaScript",
+    "tech": ["JavaScript"],
+    "link": "Output1",
+    "linkUrl": "https://youtube.com/shorts/TZWnCKpQenY?feature=share"
+  },
+  {
+    "id": 5,
+    "month": "Aug & Sep 2022",
+    "title": "Beauty clinic website",
+    "sub": "Built a WordPress website for a beauty clinic",
+    "tech": ["WordPress"],
+    "link": "Skinlab Medi Spa",
+    "linkUrl": "https://skinlabmedispa.com"
+  },
+  {
+    "id": 6,
+    "month": "Nov 2022 - Present",
+    "title": "Shopify development",
+    "sub": "Developed a new Shopify theme using Liquid (a private theme)",
+    "tech": ["Shopify", "Liquid"],
+    "link": "Astrobear",
+    "linkUrl": "https://astrobear.ca"
+  },
+  {
+    "id": 7,
+    "month": "Apr 2023",
+    "title": "Beauty studio website",
+    "sub": "Built a WordPress website for a beauty studio",
+    "tech": ["WordPress"],
+    "link": "NB Beauty Studio",
+    "linkUrl": "https://nbbeautystudio.com"
+  },
+  {
+    "id": 8,
+    "month": "May 2023 - Jun 2023",
+    "title": "UI development",
+    "sub": "Developed and implemented mobile-responsive CSS styles",
+    "tech": ["React", "Sass"],
+    "link": "Offshore Studio",
+    "linkUrl": "https://www.offshorestudio.co"
+  },
+  {
+    "id": 9,
+    "month": "Jun 2023 - Jul 2023",
+    "title": "UI design",
+    "sub": "Sweat and Tonic - smart touch control panel",
+    "tech": ["Figma"],
+    "link": "Figma file",
+    "linkUrl": "https://www.figma.com/file/NJycnoyGcWR3XEvodl7mK0/Untitled?type=design&node-id=26-95&mode=design&t=R8U0cjWatNcvZb46-0"
+  },
+  {
+    "id": 10,
+    "month": "Jul 2023 - Sep 2023",
+    "title": "UI development",
+    "sub": "Conducted research and ideation to identify optimal solution for cybersecurity and scalable websites for User 1st Apps",
+    "tech": ["React", "JavaScript", "Figma"],
+    "link": "Live (loom video)",
+    "linkUrl": "https://www.loom.com/share/782cbddbe32442d08555d4c0fd2baebb?sid=d9500e74-8c78-48c0-8b0f-96f47b69263e"
+  },
+  {
+    "id": 11,
+    "month": "Jul 2023 - Dec 2023",
+    "title": "Shopify development",
+    "sub": "Developed a Shopify theme for Clue Inc.",
+    "tech": ["Shopify", "JavaScript"],
+    "link": "The Bloor",
+    "linkUrl": "https://thebloor.com"
+  },
+  {
+    "id": 12,
+    "month": "Jul 2023 - Dec 2023",
+    "title": "UI development (IoT development)",
+    "sub": "For Sweat and Tonic - smart touch control panel",
+    "tech": ["Angular", "TypeScript"],
+    "link": "live (loom video)",
+    "linkUrl": "https://www.loom.com/share/453dd5fc441f4f53b392b41226c128ce?sid=ddf2f2ff-8e66-4ceb-b8f8-bf6eeffe7a66"
+  },
+  {
+    "id": 13,
+    "month": "Jan 2024",
+    "title": "Three JS",
+    "sub": "Built a custom t-shirt design tool",
+    "tech": ["React", "Vite"],
+    "link": "Github Repository",
+    "linkUrl": "https://github.com/Jestella/threejs-1"
+  },
+  {
+    "id": 14,
+    "month": "Feb 2024 - Apr 2024",
+    "title": "UI development (IoT development)",
+    "sub": "For Crestron devices",
+    "tech": ["Angular", "TypeScript"],
+    "link": "Coming soon",
+    "linkUrl": " "
+  }
+]

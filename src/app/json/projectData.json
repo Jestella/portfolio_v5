@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "Sweat and Tonic",
+    "year": "2023",
+    "sub": "UI Design & Development for a smart touch control panel (IoT development)",
+    "brief": "UI Design and Development (IoT)",
+    "tech": ["Angular", "TypeScript", "Figma", "UI Design"],
+    "imageUrl": "https://github.com/Jestella/portfolio_v4/assets/31642902/3adaae02-4224-43e4-b064-72219c7342ee",
+    "liveDemo": "https://www.loom.com/share/453dd5fc441f4f53b392b41226c128ce?sid=be9407f1-b3b7-410c-b563-f36a90487562",
+    "gitHub": "/",
+    "description1": "Designed a user interface using Figma for the smart touch control pfanel, optimized for Crestron TS-1070 touch screen and mobile devices, to be deployed at Sweat and Tonic Yoga Studio.",
+    "description2": "Translated UI designs into code, integrated lighting, audio, and video control systems."
+  },
+  {
+    "id": 2,
+    "title": "The Bloor",
+    "year": "2023",
+    "sub": "Shopify Theme Development",
+    "brief": "Shopify Theme Development",
+    "tech": ["Shopify", "UI Design"],
+    "imageUrl": "https://github.com/Jestella/portfolio_v5/assets/31642902/6aea4013-fbe5-4342-bfcd-3e315de6c84f",
+    "liveDemo": "https://thebloor.com",
+    "gitHub": "/",
+    "description1": "Developed a Shopify theme using JavaScript and Liquid template language to meet client-specific requirements, including dynamic features and third-party API integration",
+    "description2": "Conducted in-depth research on e-commerce UI/UX trends and analyzed data to improve the user experience and boost sales."
+  },
+  {
+    "id": 3,
+    "title": "Portfolio (version 4)",
+    "year": "2022",
+    "sub": "Personal Portfolio Website",
+    "brief": "Portfolio Website built with Next.js",
+    "tech": ["Next.js", "Sass", "UI Design"],
+    "imageUrl": "https://github.com/Jestella/portfolio_v5/assets/31642902/653215e5-835b-4750-b7fc-4e84b03f51fd",
+    "liveDemo": "https://stella-lee.com",
+    "gitHub": "https://github.com/Jestella/portfolio_v4",
+    "description1": "Updated my portfolio using Next.js for improved performance, modular code, and an enhanced user experience.",
+    "description2": "Previous version: https://jestella.github.io/portfolio_v3"
+  },
+  {
+    "id": 4,
+    "title": "Style S",
+    "year": "2021",
+    "sub": "E-commerce Platform",
+    "brief": "E-commerce Platform built with React & Redux",
+    "tech": ["React", "Redux", "Sass"],
+    "imageUrl": "https://user-images.githubusercontent.com/31642902/123004445-98efe580-d382-11eb-9d4b-5b954c708aed.png",
+    "liveDemo": "https://jestella.github.io/e-commerce/",
+    "gitHub": "https://github.com/Jestella/e-commerce",
+    "description1": "Features: 1). Google Sign In Authentication 2). Payment with Stripe API 3). Add items from Shop page 4). Remove items from Checkout page.",
+    "description2": ""
+  },
+  {
+    "id": 5,
+    "title": "TO World Tour",
+    "year": "2022",
+    "sub": "Tour Agency Website",
+    "brief": "WordPress Website for Travel Agency",
+    "tech": ["WordPress", "UI Design"],
+    "imageUrl": "https://github.com/Jestella/portfolio_v4/assets/31642902/8d887674-c912-447a-bac1-d16517eaac61",
+    "liveDemo": "https://toworldtour.com",
+    "gitHub": "https://toworldtour.com",
+    "description1": "Content creation, UI/UX design, and development ",
+    "description2": "Features: Payment Integration and multi-language support"
+  },
+  {
+    "id": 6,
+    "title": "Heroic Minds",
+    "year": "2022",
+    "sub": "",
+    "tech": ["React", "Bootstrap"],
+    "imageUrl": "https://github.com/Jestella/portfolio_v4/assets/31642902/ef66c21f-4c9b-42b4-843c-9d3b214c655e",
+    "liveDemo": "https://heroicminds.live",
+    "gitHub": "https://github.com/Jestella",
+    "description1": "Communicated with the client for improvement and implemented changes to optimize the overall design",
+    "description2": "UI/UX design using Figma and development with React.js"
+  }
+]
