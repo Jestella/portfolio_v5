@@ -1,11 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
+import projects from "./models/Projects";
 
 import styles from "./page.module.scss";
 
 export default function Home() {
+  const projectOrder = [1, 2, 4, 5, 3];
+
+  const sortedProjects = projectOrder.map(
+    (id) => projects.find((project) => project?.id === id)!
+  );
+
   return (
-    <main className={styles.main}>
+    <main>
       <div className="container">
         <section id="intro">
           <div className="home-intro">
@@ -56,7 +63,22 @@ export default function Home() {
         </section>
         <section id="featured-work">
           <div className="featured-projects">
-            <p className="section-title">/* Work */</p>
+            <p className="section-title">/* Work */</p>{" "}
+            <ul>
+              {sortedProjects.map((project) => (
+                <li key={project.id}>
+                  <Link
+                    href={`/work#work-${project.id}`}
+                    rel="noopener noreferrer"
+                  >
+                    <div className="featured-project-image-container">
+                      <img src={project.imageUrl} alt="Project image" />
+                    </div>
+                    <p className="featured-project-title">{project.brief}</p>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
           <div className="featured-button-container">
             <button className="button-more">

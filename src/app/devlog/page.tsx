@@ -14,12 +14,18 @@ export default function Page() {
   const handleSearch = (query: string) => {
     setSearchQuery(query);
     const filtered = devlogs.filter((devlog) =>
-      Object.values(devlog).find(
-        (value) =>
-          typeof value === "string" &&
-          value.toLowerCase().includes(query.toLowerCase())
-      )
+      Object.values(devlog).some((value) => {
+        if (typeof value === "string") {
+          return value.toLowerCase().includes(query.toLowerCase());
+        } else if (Array.isArray(value)) {
+          return value.some((item) =>
+            item.toLowerCase().includes(query.toLowerCase())
+          );
+        }
+        return false;
+      })
     );
+
     setFilteredDevlogs(filtered);
   };
   return (

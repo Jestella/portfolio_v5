@@ -105,7 +105,7 @@
     "title": "UI development (IoT development)",
     "sub": "For Sweat and Tonic - smart touch control panel",
     "tech": ["Angular", "TypeScript"],
-    "link": "live (loom video)",
+    "link": "Live (loom video)",
     "linkUrl": "https://www.loom.com/share/453dd5fc441f4f53b392b41226c128ce?sid=ddf2f2ff-8e66-4ceb-b8f8-bf6eeffe7a66"
   },
   {
@@ -114,7 +114,7 @@
     "title": "Three JS",
     "sub": "Built a custom t-shirt design tool",
     "tech": ["React", "Vite"],
-    "link": "Github Repository",
+    "link": "GitHub Repository",
     "linkUrl": "https://github.com/Jestella/threejs-1"
   },
   {

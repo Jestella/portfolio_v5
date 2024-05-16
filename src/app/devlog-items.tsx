@@ -1,7 +1,7 @@
 import { DevlogData } from "./models/Devlogs";
 import devlogs from "./models/Devlogs";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 interface Props {
   project: DevlogData;
@@ -19,7 +19,7 @@ const DevlogItems: React.FC<Props> = ({ project }) => {
       </h3>
       <p className="devlog-tech">#{project.tech.join(" #")}</p>
       <p>
-        {/* <FontAwesomeIcon icon={faLink} color="#c3bebe" size="sm" />{" "} */}
+        <FontAwesomeIcon icon={faLink} color="#c3bebe" size="sm" />{" "}
         <a href={project.linkUrl} target="_blank" rel="noopener noreferrer">
           <span className="devlog-link">{project.link}</span>
         </a>
