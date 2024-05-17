@@ -47,6 +47,15 @@
   },
   {
     "id": 6,
+    "month": "Oct 2022",
+    "title": "Portfolio v4",
+    "sub": "Created a new portfolio website with Next.js)",
+    "tech": ["Next.js"],
+    "link": "Portfolio v4",
+    "linkUrl": "https://portfolio-v4-rho.vercel.app/"
+  },
+  {
+    "id": 7,
     "month": "Nov 2022 - Present",
     "title": "Shopify development",
     "sub": "Developed a new Shopify theme using Liquid (a private theme)",
@@ -55,7 +64,7 @@
     "linkUrl": "https://astrobear.ca"
   },
   {
-    "id": 7,
+    "id": 8,
     "month": "Apr 2023",
     "title": "Beauty studio website",
     "sub": "Built a WordPress website for a beauty studio",
@@ -64,7 +73,7 @@
     "linkUrl": "https://nbbeautystudio.com"
   },
   {
-    "id": 8,
+    "id": 9,
     "month": "May 2023 - Jun 2023",
     "title": "UI development",
     "sub": "Developed and implemented mobile-responsive CSS styles",
@@ -73,7 +82,7 @@
     "linkUrl": "https://www.offshorestudio.co"
   },
   {
-    "id": 9,
+    "id": 10,
     "month": "Jun 2023 - Jul 2023",
     "title": "UI design",
     "sub": "Sweat and Tonic - smart touch control panel",
@@ -82,7 +91,7 @@
     "linkUrl": "https://www.figma.com/file/NJycnoyGcWR3XEvodl7mK0/Untitled?type=design&node-id=26-95&mode=design&t=R8U0cjWatNcvZb46-0"
   },
   {
-    "id": 10,
+    "id": 11,
     "month": "Jul 2023 - Sep 2023",
     "title": "UI development",
     "sub": "Conducted research and ideation to identify optimal solution for cybersecurity and scalable websites for User 1st Apps",
@@ -91,7 +100,7 @@
     "linkUrl": "https://www.loom.com/share/782cbddbe32442d08555d4c0fd2baebb?sid=d9500e74-8c78-48c0-8b0f-96f47b69263e"
   },
   {
-    "id": 11,
+    "id": 12,
     "month": "Jul 2023 - Dec 2023",
     "title": "Shopify development",
     "sub": "Developed a Shopify theme for Clue Inc.",
@@ -100,7 +109,7 @@
     "linkUrl": "https://thebloor.com"
   },
   {
-    "id": 12,
+    "id": 13,
     "month": "Jul 2023 - Dec 2023",
     "title": "UI development (IoT development)",
     "sub": "For Sweat and Tonic - smart touch control panel",
@@ -109,7 +118,7 @@
     "linkUrl": "https://www.loom.com/share/453dd5fc441f4f53b392b41226c128ce?sid=ddf2f2ff-8e66-4ceb-b8f8-bf6eeffe7a66"
   },
   {
-    "id": 13,
+    "id": 14,
     "month": "Jan 2024",
     "title": "Three JS",
     "sub": "Built a custom t-shirt design tool",
@@ -118,12 +127,21 @@
     "linkUrl": "https://github.com/Jestella/threejs-1"
   },
   {
-    "id": 14,
+    "id": 15,
     "month": "Feb 2024 - Apr 2024",
     "title": "UI development (IoT development)",
     "sub": "For Crestron devices",
     "tech": ["Angular", "TypeScript"],
     "link": "Coming soon",
     "linkUrl": " "
+  },
+  {
+    "id": 16,
+    "month": "May 2024",
+    "title": "Portfolio v5",
+    "sub": "Updated personal portfolio website with Next.js 14 and TypeScript - Added filter and search bar",
+    "tech": ["Next.js", "TypeScript"],
+    "link": "Portfolio v5",
+    "linkUrl": "https://stella-lee.com"
   }
 ]
