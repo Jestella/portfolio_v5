@@ -9,6 +9,7 @@
   --white: #f6f6f6;
   --black: #262626;
   --yellow: #ece162;
+  --green: #0b790b;
   --devlog-blue: #6161f3;
   --lab-navy: #5b47de;
 
@@ -343,7 +344,7 @@ button {
   padding: 0 15%;
   border: solid 1px var(--white);
   border-radius: 0.6rem;
-  background-color: green;
+  background-color: var(--green);
 }
 
 .tech {
