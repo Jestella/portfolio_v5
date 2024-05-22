@@ -33,7 +33,7 @@
     "brief": "Portfolio Website built with Next.js",
     "tech": ["Next.js", "Sass", "UI Design"],
     "imageUrl": "https://github.com/Jestella/portfolio_v5/assets/31642902/0be8c5b3-d001-4fa4-82db-4ee3cfbd7d89",
-    "liveDemo": "https://stella-lee.com",
+    "liveDemo": "https://portfolio-v4-rho.vercel.app/",
     "gitHub": "https://github.com/Jestella/portfolio_v4",
     "description1": "Updated my portfolio using Next.js for improved performance, modular code, and an enhanced user experience.",
     "description2": "Previous version: https://jestella.github.io/portfolio_v3"
