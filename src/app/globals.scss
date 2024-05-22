@@ -207,7 +207,7 @@ button {
       border-radius: 10px;
 
       &:hover {
-        border: 2px dotted var(--white);
+        border: 1px solid var(--white);
       }
     }
   }
@@ -246,14 +246,14 @@ button {
 .button-more {
   padding: 1rem 1.5rem;
   font-size: 0.9rem;
-  background-color: inherit;
-  color: var(--primary-color);
+  color: inherit;
+  background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 5px;
 
   &:hover {
-    background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--primary-color);
+    background-color: inherit;
   }
 }
 
@@ -267,7 +267,7 @@ button {
     border: none;
     border-radius: 5px;
     background-color: inherit;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: yellow;
 
     &:hover {
