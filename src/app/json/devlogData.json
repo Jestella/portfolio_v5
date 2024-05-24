@@ -39,7 +39,7 @@
   {
     "id": 5,
     "month": "Aug & Sep 2022",
-    "title": "Beauty clinic website",
+    "title": "WordPress",
     "sub": "Built a WordPress website for a beauty clinic",
     "tech": ["WordPress"],
     "link": "Skinlab Medi Spa",
@@ -57,7 +57,7 @@
   {
     "id": 7,
     "month": "Nov 2022 - Present",
-    "title": "Shopify development",
+    "title": "Shopify",
     "sub": "Developed a new Shopify theme using Liquid (a private theme)",
     "tech": ["Shopify", "Liquid"],
     "link": "Astrobear",
@@ -66,7 +66,7 @@
   {
     "id": 8,
     "month": "Apr 2023",
-    "title": "Beauty studio website",
+    "title": "WordPress",
     "sub": "Built a WordPress website for a beauty studio",
     "tech": ["WordPress"],
     "link": "NB Beauty Studio",
@@ -85,7 +85,7 @@
     "id": 10,
     "month": "Jun 2023 - Jul 2023",
     "title": "UI design",
-    "sub": "Sweat and Tonic - smart touch control panel",
+    "sub": " Designed UI for Sweat and Tonic yoga studio",
     "tech": ["Figma"],
     "link": "Figma file",
     "linkUrl": "https://www.figma.com/file/NJycnoyGcWR3XEvodl7mK0/Untitled?type=design&node-id=26-95&mode=design&t=R8U0cjWatNcvZb46-0"
@@ -95,14 +95,14 @@
     "month": "Jul 2023 - Sep 2023",
     "title": "UI development",
     "sub": "Conducted research and ideation to identify optimal solution for cybersecurity and scalable websites for User 1st Apps",
-    "tech": ["React", "JavaScript", "Figma"],
+    "tech": ["React", "Figma"],
     "link": "Live (loom video)",
     "linkUrl": "https://www.loom.com/share/782cbddbe32442d08555d4c0fd2baebb?sid=d9500e74-8c78-48c0-8b0f-96f47b69263e"
   },
   {
     "id": 12,
     "month": "Jul 2023 - Dec 2023",
-    "title": "Shopify development",
+    "title": "Shopify theme development",
     "sub": "Developed a Shopify theme for Clue Inc.",
     "tech": ["Shopify", "JavaScript"],
     "link": "The Bloor",
@@ -111,8 +111,8 @@
   {
     "id": 13,
     "month": "Jul 2023 - Dec 2023",
-    "title": "UI development (IoT development)",
-    "sub": "For Sweat and Tonic - smart touch control panel",
+    "title": "UI development (IoT)",
+    "sub": "Developed UI for Sweat and Tonic yoga studio",
     "tech": ["Angular", "TypeScript"],
     "link": "Live (loom video)",
     "linkUrl": "https://www.loom.com/share/453dd5fc441f4f53b392b41226c128ce?sid=ddf2f2ff-8e66-4ceb-b8f8-bf6eeffe7a66"
@@ -120,26 +120,35 @@
   {
     "id": 14,
     "month": "Jan 2024",
-    "title": "Three JS",
+    "title": "Custom t-shirt design tool",
     "sub": "Built a custom t-shirt design tool",
-    "tech": ["React", "Vite"],
+    "tech": ["Three.js", "React", "Vite"],
     "link": "GitHub Repository",
     "linkUrl": "https://github.com/Jestella/threejs-1"
   },
   {
     "id": 15,
-    "month": "Feb 2024 - Apr 2024",
-    "title": "UI development (IoT development)",
-    "sub": "For Crestron devices",
+    "month": "Mar 2024 - Apr 2024",
+    "title": "UI development (IoT)",
+    "sub": "For the Crestron TS-1070 touch screen",
     "tech": ["Angular", "TypeScript"],
     "link": "Coming soon",
     "linkUrl": " "
   },
   {
     "id": 16,
+    "month": "Apr 2024",
+    "title": "UI development (IoT)",
+    "sub": "For the Crestron TS-1070 touch screen",
+    "tech": ["Angular", "TypeScript"],
+    "link": "Coming soon",
+    "linkUrl": " "
+  },
+  {
+    "id": 17,
     "month": "May 2024",
     "title": "Portfolio v5",
-    "sub": "Updated personal portfolio website with Next.js 14 and TypeScript - Added filter and search bar",
+    "sub": "Updated personal portfolio website with Next.js 14 and TypeScrip. Added filter and search bar.",
     "tech": ["Next.js", "TypeScript"],
     "link": "Portfolio v5",
     "linkUrl": "https://stella-lee.com"

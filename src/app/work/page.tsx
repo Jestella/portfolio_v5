@@ -38,7 +38,8 @@ export default function Page() {
           <button onClick={() => handleTechClick("Shopify")}>Shopify</button>
           <button onClick={() => handleTechClick("WordPress")}>
             WordPress
-          </button>
+          </button>{" "}
+          <button onClick={() => handleTechClick("IoT")}>IoT</button>
           <button onClick={() => handleTechClick("UI Design")}>
             UI Design
           </button>

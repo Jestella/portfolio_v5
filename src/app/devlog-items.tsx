@@ -11,10 +11,11 @@ const DevlogItems: React.FC<Props> = ({ project }) => {
   return (
     <section id={`work-${project.id}`} className="devlog-item">
       <p className="devlog-date">{project.month}</p>
-      <h3>
+      <h3 className="devlog-title">
         {project.title}
         {isLatest ? <span className="new">new!</span> : ""}
       </h3>
+      {/* <p>{project.sub}</p> */}
       <p className="devlog-tech">#{project.tech.join(" #")}</p>
       <p>
         &#128279;{" "}

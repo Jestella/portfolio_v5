@@ -5,7 +5,7 @@ import projects from "./models/Projects";
 import styles from "./page.module.scss";
 
 export default function Home() {
-  const projectOrder = [1, 2, 4, 5, 3];
+  const projectOrder = [1, 2, 3, 6, 7, 4];
 
   const sortedProjects = projectOrder.map(
     (id) => projects.find((project) => project?.id === id)!

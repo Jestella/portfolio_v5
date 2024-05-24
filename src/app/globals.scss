@@ -711,4 +711,13 @@ footer {
   .devlog-container {
     grid-template-columns: 1fr;
   }
+
+  .devlog-title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .devlog-right {
+    display: none;
+  }
 }
