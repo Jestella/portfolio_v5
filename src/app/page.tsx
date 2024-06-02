@@ -81,29 +81,33 @@ export default function Home() {
             </ul>
           </div>
           <div className="featured-button-container">
-            <button className="button-more">
-              <Link href={"work"}>View More</Link>
-            </button>
+            <Link href={"work"}>
+              <button className="button-more">View More</button>
+            </Link>
           </div>
         </section>
         <section>
           <div className="home-bottom">
-            <div className="home-devlog">
-              <p>
-                Development Journey 👩🏻‍💻 &rarr;{" "}
-                <button>
-                  <Link href={"devlog"}>devlog</Link>
-                </button>
-              </p>
-            </div>
-            <div className="home-lab">
-              <p>
-                Random Experiments 💡 &rarr;{" "}
-                <button>
+            <Link href={"devlog"}>
+              <button className="home-devlog">
+                <p>
+                  Development Journey 👩🏻‍💻
+                  {/* <button>
+             devlog</Link>
+                </button> */}
+                </p>
+              </button>
+            </Link>
+            <Link href={"lab"}>
+              <button className="home-lab">
+                <p>
+                  Random Experiments 💡
+                  {/* <button>
                   <Link href={"lab"}>lab</Link>
-                </button>
-              </p>
-            </div>
+                </button> */}
+                </p>
+              </button>
+            </Link>
           </div>
         </section>
       </div>
