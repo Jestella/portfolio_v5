@@ -28,7 +28,12 @@ export default function Page() {
       <p className="section-title">/* Work */</p>
       <div className="work-page">
         <div className="work-tech-buttons">
-          <button onClick={() => handleTechClick("All")}>All</button>
+          <button
+            className={!selectedTech ? "active" : ""}
+            onClick={() => handleTechClick("All")}
+          >
+            All
+          </button>
           <button onClick={() => handleTechClick("React")}>React</button>
           <button onClick={() => handleTechClick("Next.js")}>Next.js</button>
           <button onClick={() => handleTechClick("Angular")}>Angular</button>
@@ -57,8 +62,8 @@ export default function Page() {
               >
                 <div className="work-project-content-container">
                   <div className="work-project-content">
-                    <h3>{project.title}</h3>
-                    <p>{project.sub}</p>
+                    <p className="project-title">{project.title}</p>
+                    <p className="project-sub">{project.sub}</p>
                     <p className="tech">#{project.tech.join(" #")}</p>
                   </div>
                 </div>
