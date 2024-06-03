@@ -8,7 +8,7 @@
   --primary-color: #f89b30;
   --white: #ece9e4;
   --black: #262626;
-  --yellow: #ece162;
+  --yellow: #e5e0a8;
   --gray: #747474;
   --gray-light: #a9a8a8;
   --gray-dark: #373737;
@@ -106,7 +106,7 @@ section {
 .header {
   padding: 1rem 2rem;
   margin: 1rem 2rem;
-  border: 2px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -164,7 +164,7 @@ section {
 
 .skills-container {
   padding: 2rem 0;
-  border: 2px solid #555;
+  border: 1px solid #555;
 }
 
 .skills-list {
@@ -183,7 +183,7 @@ section {
     height: auto;
     border-radius: 30px;
     background-color: var(--black);
-    border: 2px solid #555;
+    border: 1px solid #555;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,12 +204,12 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    padding: 2rem;
 
     li {
       width: 100%;
       height: auto;
-      border: 1px solid var(--black);
+      background-color: var(--gray-dark);
+      border: 1px solid var(--gray-dark);
       padding: 0.5rem 0.5rem 2rem 0.5rem;
       border-radius: 10px;
 
@@ -351,7 +351,7 @@ section {
 }
 
 .tech {
-  color: var(--gray);
+  color: var(--yellow);
   font-size: 0.8rem;
 }
 
@@ -373,7 +373,8 @@ section {
 }
 
 .project-title {
-  color: var(--gray-light);
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 .work-project-image-container {
@@ -720,8 +721,7 @@ footer {
   }
 
   .project-title {
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.1rem;
   }
 
   .devlog-right {
