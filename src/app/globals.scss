@@ -9,7 +9,7 @@
   --white: #ece9e4;
   --black: #262626;
   --yellow: #e5e0a8;
-  --gray: #747474;
+  --gray: #666565;
   --gray-light: #a9a8a8;
   --gray-dark: #373737;
 
@@ -182,8 +182,8 @@ section {
     width: auto;
     height: auto;
     border-radius: 30px;
-    background-color: var(--black);
-    border: 1px solid #555;
+    background-color: var(--gray);
+    // border: 1px solid var(--gray);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,7 +198,7 @@ section {
 }
 
 .featured-projects {
-  padding: 1rem 0;
+  padding: 1rem 0 5rem;
 
   ul {
     display: grid;
@@ -373,8 +373,9 @@ section {
 }
 
 .project-title {
-  font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  // padding-bottom: 0.5rem;
 }
 
 .work-project-image-container {
@@ -447,12 +448,16 @@ section {
   gap: 0.5rem;
 }
 
-.devlog-date,
+.devlog-date {
+  font-size: 0.7rem;
+}
+
 .devlog-link {
   font-size: 0.8rem;
 }
 
-.devlog-link {
+.devlog-link,
+.project-desc {
   color: var(--gray-light);
 
   &:hover,
@@ -695,19 +700,18 @@ footer {
 
   .work-project-content-container {
     width: 100vw;
-    padding: 2rem 2rem 1rem;
+    padding: 1.5rem 2rem 1rem;
   }
 
   .work-project-content {
     width: 100%;
-    font-size: 0.9rem;
     text-align: center;
     padding: 0;
   }
 
   .work-project-image-container {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0 0.5rem;
   }
 
   .work-project-image {
@@ -721,7 +725,7 @@ footer {
   }
 
   .project-title {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   .devlog-right {

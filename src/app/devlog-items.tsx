@@ -15,7 +15,7 @@ const DevlogItems: React.FC<Props> = ({ project }) => {
         {project.title}
         {isLatest ? <span className="new">new!</span> : ""}
       </h3>
-      <p>{project.sub}</p>
+      <p className="project-desc">{project.sub}</p>
       <p className="tech">#{project.tech.join(" #")}</p>
       <p>
         &#128279;{" "}

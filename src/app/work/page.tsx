@@ -63,7 +63,7 @@ export default function Page() {
                 <div className="work-project-content-container">
                   <div className="work-project-content">
                     <p className="project-title">{project.title}</p>
-                    <p className="project-sub">{project.sub}</p>
+                    <p className="project-desc">{project.sub}</p>
                     <p className="tech">#{project.tech.join(" #")}</p>
                   </div>
                 </div>
