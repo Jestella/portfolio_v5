@@ -168,6 +168,34 @@ section {
   }
 }
 
+.typewriter {
+  overflow: hidden;
+  border-right: 0.1em solid var(--secondary-color);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 3.5s steps(30, end) forwards;
+}
+
+.typewriter::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 1.2em;
+  animation: none;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}
+
 .getintouch {
   width: 100vw;
   padding: 0 4rem;

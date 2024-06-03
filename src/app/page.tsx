@@ -18,7 +18,7 @@ export default function Home() {
       <div className="container">
         <section id="intro">
           <div className="home-intro">
-            <h1>Stella Lee.</h1>
+            <h1 className="typewriter">Stella Lee.</h1>
             <h1>
               A <span>front-end Developer</span>
               <br />
