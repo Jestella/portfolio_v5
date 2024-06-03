@@ -25,7 +25,6 @@ export default function Page() {
 
   return (
     <div className="container">
-      <p className="section-title">/* Work */</p>
       <div className="work-page">
         <div className="work-tech-buttons">
           <button

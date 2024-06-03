@@ -31,7 +31,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Email
+              Mail
             </a>
           </li>
         </ul>

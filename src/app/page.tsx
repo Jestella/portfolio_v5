@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 import Image from "next/image";
 import Link from "next/link";
 import projects from "./models/Projects";
@@ -18,14 +20,14 @@ export default function Home() {
           <div className="home-intro">
             <h1>Stella Lee.</h1>
             <h1>
-              A front-end Developer
+              A <span>front-end Developer</span>
               <br />
               based in Toronto,
               <br />
               who loves everything
               <br /> that has to do with
               <br />
-              art, design & technology.
+              <span>art, design & technology</span>.
             </h1>
             <div className="message">
               <p>
@@ -39,6 +41,12 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* <section>
+          <div className="getintouch">
+            <p>Get in touch</p>
+            <p>&#x27A1;</p>
+          </div>
+        </section> */}
         <section id="skills">
           <div className="skills-container">
             <ul className="skills-list">
@@ -52,7 +60,6 @@ export default function Home() {
               <li># React</li>
               <li># Next.js</li>
               <li># TypeScript</li>
-              <li># Bootstrap</li>
             </ul>
             <ul className="skills-list">
               <li># Shopify</li>
@@ -63,7 +70,7 @@ export default function Home() {
         </section>
         <section id="featured-work">
           <div className="featured-projects">
-            <p className="section-title">/* Work */</p>{" "}
+            <p className="section-title">Work</p>{" "}
             <ul>
               {sortedProjects.map((project) => (
                 <li key={project.id}>
@@ -82,7 +89,7 @@ export default function Home() {
           </div>
           <div className="featured-button-container">
             <Link href={"work"}>
-              <button className="button-more">View More</button>
+              <button className="button-more">More Projects</button>
             </Link>
           </div>
         </section>

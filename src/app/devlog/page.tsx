@@ -30,7 +30,6 @@ export default function Page() {
   };
   return (
     <div className="container">
-      <p className="section-title">/* Devlog */</p>
       <div className="devlog-page">
         <SearchBar onSearch={handleSearch} />
         <div className="devlog-container">
