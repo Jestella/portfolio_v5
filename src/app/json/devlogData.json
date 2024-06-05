@@ -148,7 +148,7 @@
     "id": 17,
     "month": "May 2024",
     "title": "Portfolio v5",
-    "sub": "Updated personal portfolio website with Next.js 14 and TypeScrip. Added filter and search bar.",
+    "sub": "Updated personal portfolio website with Next.js 14 and TypeScript. Added filter and search bar.",
     "tech": ["Next.js", "TypeScript"],
     "link": "Portfolio v5",
     "linkUrl": "https://stella-lee.com"
