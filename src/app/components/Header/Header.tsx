@@ -22,25 +22,24 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`header ${scrolled ? "header-scrolled" : ""}`}>
-      <div className="header-left">
+    <header
+      className={`${styles.header} ${
+        scrolled ? styles["header-scrolled"] : ""
+      }`}
+    >
+      <div className={styles["header-left"]}>
         <Link href="/">
-          <Image
-            src="/logo.svg"
-            alt="Logo"
-            className="logo"
-            width={30}
-            height={30}
-            priority
-          />
+          <Image src="/logo.svg" alt="Logo" width={30} height={30} priority />
         </Link>
       </div>
-      <nav className="header-right">
+      <nav className={styles["header-right"]}>
         <ul>
           <li>
             <Link
               href="/work"
-              className={`link ${pathname === "/work" ? "active" : ""}`}
+              className={`${styles.link} ${
+                pathname === "/work" ? "active" : ""
+              }`}
             >
               work
             </Link>
@@ -48,7 +47,9 @@ const Header = () => {
           <li>
             <Link
               href="/devlog"
-              className={`link ${pathname === "/devlog" ? "active" : ""}`}
+              className={`${styles.link} ${
+                pathname === "/devlog" ? "active" : ""
+              }`}
             >
               devlog
             </Link>
@@ -56,7 +57,9 @@ const Header = () => {
           <li>
             <Link
               href="/lab"
-              className={`link ${pathname === "/lab" ? "active" : ""}`}
+              className={`${styles.link} ${
+                pathname === "/lab" ? "active" : ""
+              }`}
             >
               lab
             </Link>

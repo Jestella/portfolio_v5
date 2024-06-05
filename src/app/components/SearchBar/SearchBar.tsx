@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from "./SearchBar.module.scss";
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
@@ -22,7 +23,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="searchbar">
+    <form onSubmit={handleSubmit} className={styles.searchbar}>
       <input
         type="text"
         placeholder=" Search"
@@ -30,7 +31,11 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
         onChange={handleChange}
       />
       {query && (
-        <button type="button" onClick={handleClear} className="search-x-button">
+        <button
+          type="button"
+          onClick={handleClear}
+          className={styles["search-x-button"]}
+        >
           X
         </button>
       )}

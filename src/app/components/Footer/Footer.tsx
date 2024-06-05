@@ -1,11 +1,10 @@
 import React from "react";
 import styles from "./Footer.module.scss";
-import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer>
-      <nav className="footer-menu">
+    <footer className={styles.footer}>
+      <nav className={styles["footer-menu"]}>
         <ul>
           <li>
             <a
@@ -36,7 +35,9 @@ const Footer = () => {
           </li>
         </ul>
       </nav>
-      <p className="copyright">© Stella Lee {new Date().getFullYear()}</p>
+      <p className={styles.copyright}>
+        © Stella Lee {new Date().getFullYear()}
+      </p>
     </footer>
   );
 };

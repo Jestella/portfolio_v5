@@ -1,0 +1,20 @@
+/* search bar */
+
+.searchbar {
+  width: auto;
+  margin-left: 1.5rem;
+
+  input {
+    width: 12rem;
+    height: 2rem;
+    outline: none;
+  }
+}
+
+.search-x-button {
+  width: 2rem;
+  height: 2rem;
+  background-color: inherit;
+  color: var(--white);
+  border: none;
+}

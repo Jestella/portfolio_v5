@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import projects from "./models/Projects";
 
-import styles from "./page.module.scss";
+import styles from "./Home.module.scss";
 
 export default function Home() {
   const projectOrder = [1, 2, 3, 6, 7, 4];
@@ -16,9 +16,11 @@ export default function Home() {
   return (
     <main>
       <div className="container">
-        <section id="intro">
-          <div className="home-intro">
-            <h1 className="typewriter">Stella Lee.</h1>
+        <section id={styles.intro}>
+          <div className={styles["home-intro"]}>
+            <h1 className={styles.typewriter}>
+              <span>Stella Lee.</span>
+            </h1>
             <h1>
               A <span>front-end Developer</span>
               <br />
@@ -29,7 +31,7 @@ export default function Home() {
               <br />
               <span>art, design & technology</span>.
             </h1>
-            <div className="message">
+            <div className={styles.message}>
               <p>
                 "Hi 👋🏻,
                 <br />
@@ -47,30 +49,30 @@ export default function Home() {
             <p>&#x27A1;</p>
           </div>
         </section> */}
-        <section id="skills">
-          <div className="skills-container">
-            <ul className="skills-list">
+        <section id={styles.skills}>
+          <div className={styles["skills-container"]}>
+            <ul className={styles["skills-list"]}>
               <li># Web</li>
               <li># App</li>
               <li># IoT</li>
               <li># UI/UX</li>
             </ul>
-            <ul className="skills-list">
+            <ul className={styles["skills-list"]}>
               <li># Angular</li>
               <li># React</li>
               <li># Next.js</li>
               <li># TypeScript</li>
             </ul>
-            <ul className="skills-list">
+            <ul className={styles["skills-list"]}>
               <li># Shopify</li>
               <li># WordPress</li>
               <li># Figma</li>
             </ul>
           </div>
         </section>
-        <section id="featured-work">
-          <div className="featured-projects">
-            <p className="section-title">Work</p>{" "}
+        <section id={styles["featured-work"]}>
+          <div className={styles["featured-projects"]}>
+            <p className="section-title">Work</p>
             <ul>
               {sortedProjects.map((project) => (
                 <li key={project.id}>
@@ -78,25 +80,27 @@ export default function Home() {
                     href={`/work#work-${project.id}`}
                     rel="noopener noreferrer"
                   >
-                    <div className="featured-project-image-container">
+                    <div className={styles["featured-project-image-container"]}>
                       <img src={project.imageUrl} alt="Project image" />
                     </div>
-                    <p className="featured-project-title">{project.brief}</p>
+                    <p className={styles["featured-project-title"]}>
+                      {project.brief}
+                    </p>
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="featured-button-container">
+          <div className={styles["featured-button-container"]}>
             <Link href={"work"}>
-              <button className="button-more">More Projects</button>
+              <button className={styles["button-more"]}>More Projects</button>
             </Link>
           </div>
         </section>
         <section>
-          <div className="home-bottom">
+          <div className={styles["home-bottom"]}>
             <Link href={"devlog"}>
-              <button className="home-devlog">
+              <button className={styles["home-devlog"]}>
                 <p>
                   Development Journey 👩🏻‍💻
                   {/* <button>
@@ -106,7 +110,7 @@ export default function Home() {
               </button>
             </Link>
             <Link href={"lab"}>
-              <button className="home-lab">
+              <button className={styles["home-lab"]}>
                 <p>
                   Random Experiments 💡
                   {/* <button>

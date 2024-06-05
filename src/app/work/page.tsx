@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
-import styles from "./work.module.scss";
 import projects from "../models/Projects";
+
+import styles from "./work.module.scss";
 
 export default function Page() {
   const [selectedTech, setSelectedTech] = useState<string | null>(null);
@@ -25,10 +25,10 @@ export default function Page() {
 
   return (
     <div className="container">
-      <div className="work-page">
-        <div className="work-tech-buttons">
+      <div className={styles["work-page"]}>
+        <div className={styles["work-tech-buttons"]}>
           <button
-            className={!selectedTech ? "active" : ""}
+            className={!selectedTech ? styles.active : ""}
             onClick={() => handleTechClick("All")}
           >
             All
@@ -49,25 +49,25 @@ export default function Page() {
           </button>
         </div>
 
-        <div className="work-list">
-          <div className="work-project-container">
+        <div className={styles["work-list"]}>
+          <div className={styles["work-project-container"]}>
             {filteredProjects.map((project, index) => (
               <div
                 key={project.id}
                 id={`#work-${project.id}`}
-                className={`work-project ${
-                  index % 2 === 0 ? "left-image" : "right-image"
+                className={`${styles["work-project"]} ${
+                  index % 2 === 0 ? styles["left-image"] : styles["right-image"]
                 }`}
               >
-                <div className="work-project-content-container">
-                  <div className="work-project-content">
-                    <p className="project-title">{project.title}</p>
-                    <p className="project-desc">{project.sub}</p>
-                    <p className="tech">#{project.tech.join(" #")}</p>
+                <div className={styles["work-project-content-container"]}>
+                  <div className={styles["work-project-content"]}>
+                    <p className={styles["project-title"]}>{project.title}</p>
+                    <p className={styles["project-desc"]}>{project.sub}</p>
+                    <p className={styles["tech"]}>#{project.tech.join(" #")}</p>
                   </div>
                 </div>
                 <div
-                  className="work-project-image-container"
+                  className={styles["work-project-image-container"]}
                   onMouseEnter={() =>
                     setShowLiveDemoButton((prevState) => ({
                       ...prevState,
@@ -84,11 +84,11 @@ export default function Page() {
                   <img
                     src={project.imageUrl}
                     alt="project image"
-                    className="work-project-image"
+                    className={styles["work-project-image"]}
                   />
                   {showLiveDemoButton[project.id] && (
                     <button
-                      className="live-demo-button"
+                      className={styles["live-demo-button"]}
                       onClick={() => openProject(project.liveDemo)}
                     >
                       Live Demo

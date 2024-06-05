@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  padding: 2rem 0;
+  font-size: 0.8rem;
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+  }
+}
+
+.footer-menu {
+  padding: 2rem 1rem;
+}
+
+.copyright {
+  text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+}

@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import DevlogItems from "../devlog-items";
+import DevlogItems from "./devlog-items";
 import devlogs from "../models/Devlogs";
 import SearchBar from "../components/SearchBar/SearchBar";
 
-import styles from "./work.module.scss";
+import styles from "./devlog.module.scss";
 
 export default function Page() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -30,10 +30,10 @@ export default function Page() {
   };
   return (
     <div className="container">
-      <div className="devlog-page">
+      <div className={styles["devlog-page"]}>
         <SearchBar onSearch={handleSearch} />
-        <div className="devlog-container">
-          <div className="devlog-items">
+        <div className={styles["devlog-container"]}>
+          <div className={styles["devlog-items"]}>
             {/* {devlogs
               .slice(0)
               .reverse()
@@ -51,7 +51,7 @@ export default function Page() {
               <p>No result found.</p>
             )}
           </div>
-          <div className="devlog-right">*** Coming Soon ***</div>
+          <div className={styles["devlog-right"]}>* Coming Soon *</div>
         </div>
       </div>
     </div>

@@ -1,0 +1,41 @@
+/* lab */
+
+.lab-intro {
+  margin: 2rem 0;
+}
+
+.lab-page {
+  width: 100%;
+  height: 100%;
+}
+
+.experiments {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  width: 100%;
+  gap: 0.2rem;
+}
+
+.lab-item {
+  height: 13rem;
+  border: 1px solid var(--gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  .lab-intro {
+    margin: 1rem 0;
+  }
+
+  .experiments {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

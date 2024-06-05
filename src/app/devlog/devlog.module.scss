@@ -1,0 +1,78 @@
+/* devlog */
+
+.devlog-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.devlog-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.devlog-items {
+  background-color: var(--primary-dark);
+}
+
+.devlog-item {
+  margin: 1rem;
+  padding: 0.5rem 0 2rem 0.5rem;
+  border-bottom: 0.5px dashed var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.devlog-date {
+  font-size: 0.7rem;
+}
+
+.devlog-link {
+  font-size: 0.8rem;
+}
+
+.devlog-link {
+  color: var(--primary-light);
+
+  &:hover,
+  &:visited {
+    color: var(--accent-color);
+  }
+}
+
+.project-desc {
+  color: var(--primary-light);
+  font-size: var(--font-small);
+}
+
+.new {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+  color: #000;
+  background-color: var(--secondary-color);
+}
+
+.devlog-right {
+  padding: 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  .devlog-container {
+    grid-template-columns: 1fr;
+  }
+
+  .project-title {
+    font-size: var(--font-small);
+  }
+
+  .devlog-right {
+    display: none;
+  }
+}
