@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -22,13 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics />
       <body className={inter.className}>
-        {" "}
         <Header />
         {children}
         <Footer />
       </body>
-      <GoogleAnalytics gaId="G-5H1DNF7FDR" />
     </html>
   );
 }

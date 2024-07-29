@@ -152,5 +152,14 @@
     "tech": ["Next.js", "TypeScript"],
     "link": "Portfolio v5",
     "linkUrl": "https://stella-lee.com"
+  },
+  {
+    "id": 18,
+    "month": "Jul 2024 - Present",
+    "title": "WordPress Website",
+    "sub": "Redesigned the Parks Tigers Taekwondo Website.",
+    "tech": ["WordPress"],
+    "link": "Parks Tigers Taekwondo",
+    "linkUrl": "https://parkstigers.ca"
   }
 ]
