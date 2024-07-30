@@ -34,15 +34,8 @@ export default function Page() {
         <SearchBar onSearch={handleSearch} />
         <div className={styles["devlog-container"]}>
           <div className={styles["devlog-items"]}>
-            {/* {devlogs
-              .slice(0)
-              .reverse()
-              .map((project) => (
-                <Devlog key={project.id} project={project} />
-              ))} */}
             {filteredDevlogs.length > 0 ? (
-              filteredDevlogs
-                .slice(0)
+              [...filteredDevlogs]
                 .reverse()
                 .map((project) => (
                   <DevlogItems key={project.id} project={project} />
