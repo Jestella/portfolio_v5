@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import projects from "../models/Projects";
 
 import styles from "./work.module.scss";
@@ -81,11 +82,14 @@ export default function Page() {
                     }))
                   }
                 >
-                  <img
+                  <Image
                     src={project.imageUrl}
                     alt="project image"
+                    width={500}
+                    height={300}
                     className={styles["work-project-image"]}
                   />
+
                   {showLiveDemoButton[project.id] && (
                     <button
                       className={styles["live-demo-button"]}

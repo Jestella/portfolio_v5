@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import Image from "next/image";
 import Link from "next/link";
 import projects from "./models/Projects";
@@ -81,7 +80,12 @@ export default function Home() {
                     rel="noopener noreferrer"
                   >
                     <div className={styles["featured-project-image-container"]}>
-                      <img src={project.imageUrl} alt="Project image" />
+                      <Image
+                        src={project.imageUrl}
+                        alt="Project image"
+                        width={500}
+                        height={300}
+                      />
                     </div>
                     <p className={styles["featured-project-title"]}>
                       {project.brief}

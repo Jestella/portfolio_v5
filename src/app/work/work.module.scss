@@ -51,7 +51,7 @@
 }
 
 .tech {
-  color: var(--white);
+  color: var(--secondary-color);
   font-size: 0.8rem;
 }
 
@@ -73,9 +73,14 @@
 }
 
 .project-title {
-  font-size: 1rem;
+  font-size: var(--font-large);
   font-family: "Roboto-rounded", sans-serif;
+
   // padding-bottom: 0.5rem;
+}
+
+.project-desc {
+  color: var(--primary-light);
 }
 
 .work-project-image-container {
