@@ -61,8 +61,10 @@
 .new {
   font-size: 0.8rem;
   margin-left: 0.5rem;
+  padding: 0 3px;
   color: #000;
   background-color: var(--secondary-color);
+  font-weight: 500;
 }
 
 .devlog-right {

@@ -97,7 +97,7 @@ export default function Home() {
           </div>
           <div className={styles["featured-button-container"]}>
             <Link href={"work"}>
-              <button className={styles["button-more"]}>More Projects</button>
+              <button className={styles["button-more"]}>More projects</button>
             </Link>
           </div>
         </section>
@@ -105,22 +105,14 @@ export default function Home() {
           <div className={styles["home-bottom"]}>
             <Link href={"devlog"}>
               <button className={styles["home-devlog"]}>
-                <p>
-                  Development Journey 👩🏻‍💻
-                  {/* <button>
-             devlog</Link>
-                </button> */}
-                </p>
+                <h1>👩🏻‍💻</h1>
+                <p>Development Journey &raquo;</p>
               </button>
             </Link>
             <Link href={"lab"}>
               <button className={styles["home-lab"]}>
-                <p>
-                  Random Experiments 💡
-                  {/* <button>
-                  <Link href={"lab"}>lab</Link>
-                </button> */}
-                </p>
+                <h1>💡</h1>
+                <p>Random Experiments &raquo;</p>
               </button>
             </Link>
           </div>

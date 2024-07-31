@@ -53,6 +53,7 @@
 .tech {
   color: var(--secondary-color);
   font-size: 0.8rem;
+  margin-top: 1rem;
 }
 
 .work-project-content-container {
@@ -159,13 +160,13 @@
   .work-project-content {
     width: 100%;
     text-align: center;
-    padding: 5% 0 7%;
+    padding: 1% 0;
   }
 
   .project-title {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
-    padding-bottom: 0.3rem;
+    // padding-bottom: 0.3rem;
   }
 
   .work-project-image-container {
