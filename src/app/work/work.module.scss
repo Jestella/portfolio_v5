@@ -75,8 +75,6 @@
 .project-title {
   font-size: var(--font-large);
   font-family: "Roboto-rounded", sans-serif;
-
-  // padding-bottom: 0.5rem;
 }
 
 .project-desc {
@@ -161,7 +159,13 @@
   .work-project-content {
     width: 100%;
     text-align: center;
-    padding: 0;
+    padding: 5% 0 7%;
+  }
+
+  .project-title {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0.3rem;
   }
 
   .work-project-image-container {
