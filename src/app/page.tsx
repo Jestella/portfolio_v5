@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import projects from "./models/Projects";
@@ -30,16 +29,6 @@ export default function Home() {
               <br />
               <span>art, design & technology</span>.
             </h1>
-            <div className={styles.message}>
-              <p>
-                "Hi 👋🏻,
-                <br />
-                this website is currently under construction
-                <br />
-                and will be updated soon!"
-                <br />
-              </p>
-            </div>
           </div>
         </section>
         {/* <section>
@@ -103,18 +92,21 @@ export default function Home() {
         </section>
         <section>
           <div className={styles["home-bottom"]}>
-            <Link href={"devlog"}>
-              <button className={styles["home-devlog"]}>
-                <h1>👩🏻‍💻</h1>
-                <p>Development Journey &raquo;</p>
-              </button>
-            </Link>
-            <Link href={"lab"}>
-              <button className={styles["home-lab"]}>
-                <h1>💡</h1>
-                <p>Random Experiments &raquo;</p>
-              </button>
-            </Link>
+            <div className={styles["home-devlog"]}>
+              <h1>👩🏻‍💻</h1>
+              <Link href={"devlog"}>
+                <button>Development Journey &raquo;</button>
+              </Link>
+            </div>
+
+            <div className={styles["home-lab"]}>
+              <h1>💡</h1>
+              <Link href={"lab"}>
+                <button>
+                  <p>Random Experiments &raquo;</p>
+                </button>
+              </Link>
+            </div>
           </div>
         </section>
       </div>

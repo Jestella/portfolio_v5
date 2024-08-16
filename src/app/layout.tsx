@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Stella Lee | Front-end Developer",
   description: "portfolio website",
   keywords: "software engineer",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

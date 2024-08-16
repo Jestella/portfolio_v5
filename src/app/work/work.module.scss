@@ -11,25 +11,26 @@
   justify-content: center;
   gap: 1rem;
   margin-bottom: 0.2rem;
+  overflow-x: scroll;
 
   button {
-    width: 5rem;
+    width: 5.5rem;
     height: 2rem;
     border-radius: 1rem;
     background-color: inherit;
-    color: var(--white);
+    color: var(--primary-color);
     flex-shrink: 0;
     white-space: nowrap;
     border: 1px solid var(--gray);
 
     &:hover,
     &:active {
-      border: 1px solid var(--white);
+      border: 1px solid var(--primary-color);
     }
   }
 
   .active {
-    border: 1px solid var(--white);
+    border: 1px solid var(--primary-color);
   }
 }
 
@@ -109,7 +110,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--primary-dark);
-  color: var(--white);
+  color: var(--primary-color);
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.2rem;
