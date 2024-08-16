@@ -69,7 +69,7 @@
     "title": "Style S",
     "year": "2021",
     "sub": "E-commerce platform",
-    "brief": "E-commerce Built from Scratch",
+    "brief": "E-commerce built from scratch",
     "tech": ["React", "Redux", "Sass"],
     "imageUrl": "https://user-images.githubusercontent.com/31642902/123004445-98efe580-d382-11eb-9d4b-5b954c708aed.png",
     "liveDemo": "https://jestella.github.io/e-commerce/",

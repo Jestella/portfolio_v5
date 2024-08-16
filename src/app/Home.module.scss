@@ -153,14 +153,14 @@
 .button-more {
   padding: 1rem 2rem;
   color: inherit;
-  background-color: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  background-color: var(--secondary-dark);
+  border: 1px solid var(--secondary-dark);
   border-radius: 10px;
   font-weight: 500;
   font-size: 0.9rem;
 
   &:hover {
-    color: var(--accent-color);
+    color: var(--secondary-color);
     background-color: inherit;
   }
 }
@@ -198,7 +198,7 @@
 
       &:hover {
         text-decoration: underline;
-        color: var(--accent-color);
+        color: var(--secondary-color);
       }
     }
   }

@@ -11,12 +11,6 @@ export default function Page() {
           <li className={styles["lab-item"]}>*</li>
           <li className={styles["lab-item"]}>Coming Soon!</li>
           <li className={styles["lab-item"]}>*</li>
-          <li className={styles["lab-item"]}>*</li>
-          <li className={styles["lab-item"]}>*</li>
-          <li className={styles["lab-item"]}>*</li>
-          <li className={styles["lab-item"]}>*</li>
-          <li className={styles["lab-item"]}>*</li>
-          <li className={styles["lab-item"]}>*</li>
         </ul>
       </div>
     </div>

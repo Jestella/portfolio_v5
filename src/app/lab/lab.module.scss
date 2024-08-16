@@ -6,7 +6,7 @@
 
 .lab-page {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .experiments {
@@ -18,7 +18,7 @@
 }
 
 .lab-item {
-  height: 13rem;
+  height: 15rem;
   border: 1px solid var(--gray);
   display: flex;
   flex-direction: column;

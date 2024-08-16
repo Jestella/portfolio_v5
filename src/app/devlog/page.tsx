@@ -44,7 +44,7 @@ export default function Page() {
               <p>No result found.</p>
             )}
           </div>
-          <div className={styles["devlog-right"]}>* Coming Soon *</div>
+          <div className={styles["devlog-right"]}>* updating</div>
         </div>
       </div>
     </div>

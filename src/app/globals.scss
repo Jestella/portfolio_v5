@@ -6,8 +6,9 @@
   //   "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --primary-color: #f9f6e8;
-  --secondary-color: #f2b118;
-  --accent-color: #f28118;
+  --secondary-color: #faad64;
+  --secondary-dark: #ff993a;
+  --accent-color: #c2fca7;
   --white: #ece9e4;
   --black: #262626;
   --gray: #666565;
@@ -85,7 +86,7 @@ section {
 }
 
 .active {
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
 .center {
