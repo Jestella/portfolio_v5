@@ -161,5 +161,14 @@
     "tech": ["WordPress"],
     "link": "Tiger Taekwondo website",
     "linkUrl": "https://parkstigers.ca"
+  },
+  {
+    "id": 19,
+    "month": "Aug 2024",
+    "title": "Design System",
+    "sub": "Learned about design systems",
+    "tech": ["Figma, UI"],
+    "link": "Figma for design systems",
+    "linkUrl": "https://www.figma.com/design-systems/"
   }
 ]
