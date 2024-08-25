@@ -167,8 +167,16 @@
     "month": "Aug 2024",
     "title": "Design System",
     "sub": "Learned about design systems",
-    "tech": ["Figma, UI"],
+    "tech": ["Figma", "UI"],
     "link": "Figma for design systems",
     "linkUrl": "https://www.figma.com/design-systems/"
+  },
+  {
+    "id": 20,
+    "month": "Aug 2024 - Present",
+    "title": "Shopify theme development",
+    "sub": "Redesign and develop a Shopify theme for Hokusan Tea Canada",
+    "tech": ["Shopify", "UI"],
+    "link": "Coming Soon"
   }
 ]

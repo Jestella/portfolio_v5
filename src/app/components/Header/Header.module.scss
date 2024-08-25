@@ -1,7 +1,7 @@
 .header {
   padding: 1rem 2rem;
   margin: 1rem 2rem;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--brand-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@
       align-items: center;
 
       li:hover {
-        color: var(--secondary-color);
+        color: var(--brand-color);
       }
     }
   }
@@ -46,7 +46,7 @@
       height: 100%;
 
       li:hover {
-        color: var(--secondary-color-color);
+        color: var(--brand-color);
       }
     }
   }

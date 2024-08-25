@@ -24,7 +24,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: var(--border-radius-lg);
+
+  &:hover,
+  &:visited {
+    border: 1px solid var(--primary-text-color);
+    color: var(--accent-color);
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

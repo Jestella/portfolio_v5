@@ -40,21 +40,21 @@ export default function Home() {
         <section id={styles.skills}>
           <div className={styles["skills-container"]}>
             <ul className={styles["skills-list"]}>
-              <li># Web</li>
-              <li># App</li>
-              <li># IoT</li>
-              <li># UI/UX</li>
+              <li>Web</li>
+              <li>App</li>
+              <li>IoT</li>
+              <li>UI/UX</li>
             </ul>
             <ul className={styles["skills-list"]}>
-              <li># Angular</li>
-              <li># React</li>
-              <li># Next.js</li>
-              <li># TypeScript</li>
+              <li>Angular</li>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>TypeScript</li>
             </ul>
             <ul className={styles["skills-list"]}>
-              <li># Shopify</li>
-              <li># WordPress</li>
-              <li># Figma</li>
+              <li>Shopify</li>
+              <li>WordPress</li>
+              <li>Figma</li>
             </ul>
           </div>
         </section>
