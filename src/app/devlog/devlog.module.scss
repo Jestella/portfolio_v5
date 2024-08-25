@@ -72,6 +72,10 @@
 }
 
 @media (max-width: 767px) {
+  .devlog-item {
+    margin: 1rem 0;
+  }
+
   .devlog-container {
     grid-template-columns: 1fr;
   }
@@ -79,5 +83,9 @@
   .project-title {
     font-size: var(--text-sm);
     font-weight: 400;
+  }
+
+  .devlog-right {
+    display: none;
   }
 }

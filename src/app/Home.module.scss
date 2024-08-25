@@ -181,8 +181,8 @@
       background-color: inherit;
       border: none;
       font-weight: 500;
-      font-size: var(--text-md);
       padding: 0.5rem;
+      font-size: var(--text-md);
 
       &:hover {
         text-decoration: underline;
@@ -201,7 +201,7 @@
   }
 
   .home-intro h1 {
-    font-size: var(--text-xxl);
+    font-size: var(--text-xl);
     line-height: 1.2;
   }
 
@@ -232,9 +232,11 @@
   .home-bottom {
     width: calc(100vw - 2rem);
 
-    button {
-      font-size: var(--text-sm);
-      padding: 0 5%;
+    .home-devlog,
+    .home-lab {
+      button {
+        font-size: var(--text-sm);
+      }
     }
   }
 }

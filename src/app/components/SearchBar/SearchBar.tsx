@@ -26,7 +26,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
     <form onSubmit={handleSubmit} className={styles.searchbar}>
       <input
         type="text"
-        placeholder=" Search"
+        placeholder="Search"
         value={query}
         onChange={handleChange}
       />

@@ -102,9 +102,7 @@ export default function Home() {
             <div className={styles["home-lab"]}>
               <h1>💡</h1>
               <Link href={"lab"}>
-                <button>
-                  <p>Random Experiments &raquo;</p>
-                </button>
+                <button>Random Experiments &raquo;</button>
               </Link>
             </div>
           </div>
