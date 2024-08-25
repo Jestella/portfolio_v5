@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: "portfolio website",
   keywords: "software engineer",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.ico",
   },
 };
 
