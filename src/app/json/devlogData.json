@@ -86,7 +86,7 @@
     "month": "Jun 2023 - Jul 2023",
     "title": "UI design",
     "sub": " Designed UI for Sweat and Tonic Yoga Studio",
-    "tech": ["Figma"],
+    "tech": ["Figma", "UI Design"],
     "link": "HiFi wireframe",
     "linkUrl": "https://www.figma.com/file/NJycnoyGcWR3XEvodl7mK0/Untitled?type=design&node-id=26-95&mode=design&t=R8U0cjWatNcvZb46-0"
   },
@@ -157,7 +157,7 @@
     "id": 18,
     "month": "Jul 2024 - Present",
     "title": "WordPress Website",
-    "sub": "Redesigning the Tiger Taekwondo Website.",
+    "sub": "Redesigned the Tiger Taekwondo Website.",
     "tech": ["WordPress"],
     "link": "Tiger Taekwondo website",
     "linkUrl": "https://parkstigers.ca"
@@ -167,7 +167,7 @@
     "month": "Aug 2024",
     "title": "Design System",
     "sub": "Learned about design systems",
-    "tech": ["Figma", "UI"],
+    "tech": ["Figma", "UI Design"],
     "link": "Figma for design systems",
     "linkUrl": "https://www.figma.com/design-systems/"
   },
@@ -175,8 +175,8 @@
     "id": 20,
     "month": "Aug 2024 - Present",
     "title": "Shopify theme development",
-    "sub": "Redesign and develop a Shopify theme for Hokusan Tea Canada",
-    "tech": ["Shopify", "UI"],
+    "sub": "Redesigning and developing a Shopify theme for Hokusan Tea Canada",
+    "tech": ["Shopify", "UI Design"],
     "link": "Coming Soon",
     "linkUrl": " "
   }
