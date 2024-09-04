@@ -92,20 +92,6 @@
   },
   {
     "id": 8,
-    "title": "Tiger Taekwondo",
-    "year": "2024",
-    "sub": " Taekwondo school website",
-    "brief": "WordPress website for taekwondo school",
-    "tech": ["WordPress"],
-    "imageUrl": "https://github.com/user-attachments/assets/6d70d539-2082-4717-8c64-faad26575745",
-    "liveDemo": "https://parkstigers.ca",
-    "gitHub": "https://parkstigers.ca",
-    "description1": "",
-    "description2": ""
-  },
-
-  {
-    "id": 9,
     "title": "Heroic Minds",
     "year": "2022",
     "sub": "",
