@@ -64,7 +64,7 @@ const Header = () => {
               lab
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/about"
               className={`${styles.link} ${
@@ -73,7 +73,7 @@ const Header = () => {
             >
               about
             </Link>
-          </li>
+          </li> */}
           {/* <li>
             <Link href="/dashboard">dashboard</Link>
           </li>
