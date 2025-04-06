@@ -64,6 +64,16 @@ const Header = () => {
               lab
             </Link>
           </li>
+          <li>
+            <Link
+              href="/about"
+              className={`${styles.link} ${
+                pathname === "/about" ? "active" : ""
+              }`}
+            >
+              about
+            </Link>
+          </li>
           {/* <li>
             <Link href="/dashboard">dashboard</Link>
           </li>
