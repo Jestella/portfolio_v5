@@ -15,12 +15,15 @@
   padding: 2rem 1rem;
 }
 
-.copyright {
-  text-align: center;
+.footer-message {
+  font-size: var(--text-xs);
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 }
 
 @media (max-width: 767px) {
+  .footer-message {
+    font-size: var(--text-xxs);
+  }
 }

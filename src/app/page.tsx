@@ -20,23 +20,16 @@ export default function Home() {
               <span>Stella Lee.</span>
             </h1>
             <h1>
-              A <span>front-end Developer</span>
+              A front-end Developer
               <br />
               based in Toronto,
               <br />
-              who loves everything
-              <br /> that has to do with
-              <br />
-              <span>art, design & technology</span>.
+              crafting digital experiences
+              <br /> through <span>design and technology</span>.
             </h1>
           </div>
         </section>
-        {/* <section>
-          <div className="getintouch">
-            <p>Get in touch</p>
-            <p>&#x27A1;</p>
-          </div>
-        </section> */}
+
         <section id={styles.skills}>
           <div className={styles["skills-container"]}>
             <ul className={styles["skills-list"]}>

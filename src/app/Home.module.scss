@@ -93,8 +93,8 @@
     li {
       width: 100%;
       height: auto;
-      background-color: var(--gray-dark);
-      padding: 0.5rem 0.5rem 2rem 0.5rem;
+      // background-color: var(--gray-dark);
+      padding: 1rem 1rem 3rem;
       border-radius: var(--border-radius-md);
       border: 1px solid var(--gray-dark);
       transition: 0.2s ease;
@@ -129,7 +129,7 @@
 .featured-project-title {
   text-align: center;
   font-size: var(--text-sm);
-  margin-top: 0.5rem;
+  margin: 1rem 0;
 }
 
 .featured-button-container {

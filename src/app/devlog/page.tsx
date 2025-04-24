@@ -44,7 +44,7 @@ export default function Page() {
               <p>No result found.</p>
             )}
           </div>
-          <div className={styles["devlog-right"]}>* updating</div>
+          <div className={styles["devlog-right"]}> </div>
         </div>
       </div>
     </div>

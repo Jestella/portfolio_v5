@@ -35,9 +35,13 @@ const Footer = () => {
           </li>
         </ul>
       </nav>
-      <p className={styles.copyright}>
-        © Stella Lee {new Date().getFullYear()}
-      </p>
+      <div className="center">
+        <p className={styles["footer-message"]}>
+          한국어 문의하실 수 있습니다 | 日本語でお問い合わせください
+        </p>
+        <br />
+        <p>© Stella Lee {new Date().getFullYear()}</p>
+      </div>
     </footer>
   );
 };
