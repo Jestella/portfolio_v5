@@ -26,10 +26,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <GoogleAnalytics />
-      <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+      <body>
+        <div className={inter.className}>
+          <Header />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
