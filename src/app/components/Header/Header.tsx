@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 
+import clsx from "clsx";
 import styles from "./Header.module.scss";
 
 const Header = () => {

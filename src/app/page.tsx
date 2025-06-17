@@ -20,12 +20,13 @@ export default function Home() {
               <span>Stella Lee.</span>
             </h1>
             <h1>
-              A front-end Developer
+              A front-end developer
               <br />
               based in Toronto,
               <br />
-              crafting digital experiences
-              <br /> through <span>design and technology</span>.
+              designing and building
+              <br />
+              <span>interactive experiences</span>.
             </h1>
           </div>
         </section>

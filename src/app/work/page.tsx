@@ -64,7 +64,7 @@ export default function Page() {
                   <div className={styles["work-project-content"]}>
                     <p className={styles["project-title"]}>{project.title}</p>
                     <p className={styles["project-desc"]}>{project.sub}</p>
-                    <p className={styles["tech"]}>#{project.tech.join(" #")}</p>
+                    <p className={styles["tech"]}>{project.tech.join(", ")}</p>
                   </div>
                 </div>
                 <div
